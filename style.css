@@ -3,3 +3,109 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #D4A76A;
+}
+
+header{
+  background-color: #FFDBAA;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-bottom: solid 3px black;
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 200px;
+  justify-content: center;
+}
+
+a{
+  color: white;
+  background-color: #805215;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+nav{
+  padding: 10px;
+  margin: 10px;
+}
+
+nav a{
+  padding: 15px 20px;
+  margin: 0 20px;
+}
+
+h1{
+  color: #553100;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  font-size: 40px;
+}
+
+main{
+  background-color: #D4A76A;
+  padding: 20px;
+  margin: 10px, auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  justify-content: center;
+}
+
+.card{
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.card{
+  width: 300px;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  /* display: inline-block; */
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.card h3{
+  text-align: center;
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.card p{
+  text-align: left;
+  margin: 10px;
+  
+}
+
+.card a{
+  display: block;
+  text-align: center;
+  padding: 15px 20px;
+  margin: 10px;
+  border: solid 3px black;
+}
+
+.longCard{
+  width: 1300px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+}
